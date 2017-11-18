@@ -13,6 +13,7 @@
  *= require_tree .
  *= require_self
  */
+
 html {
     font-family:  Comic Sans MS
 }
@@ -61,7 +62,7 @@ h2{
 .completed-todo{
   text-decoration: line-through;
 }
-body {background-color: #926985;}
+body {background-color: pink;}
 
 li:hover{
   background-color: blue;
