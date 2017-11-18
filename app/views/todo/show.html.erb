@@ -1,6 +1,13 @@
  <input type="checkbox">
-    <h2>Make the curriculum 4 Pomodoros</h2>
+    <h1><%= @todo_description %></h1>
+    
+    
+    <h4><%= @todo_pomodoro_estimate%> 
+    pomodoros</h4>
+    
+   <h3>Todo #<%= params[:id] %></h3>
+     
     <a href="#">Edit</a>
     <a href="#">Delete</a>
     <a href="index.html">Go back...</a>
-    <%= @todo_description = "Make a curriculum"%>
+   
